@@ -1,0 +1,28 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #ddd;
+}
+nav, 
+footer {
+	width: 100%;
+	min-height: 50px;
+	background-color: #f00;
+	text-align: center;
+	color: #ddd;
+}
+nav {
+	position: sticky;
+	top: 0;
+}
+main {
+	width: 100%;
+	background-color: turquoise;
+	flex-grow: 1;
+}
